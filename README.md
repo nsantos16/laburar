@@ -11,7 +11,7 @@ Ve todos los trabajos informáticos de buscojobs y computrabajo sin tener que ha
 ```bash
 git clone "https://github.com/nsantos16/laburar"
 cd laburar
-python execute.py #genera csv en la carpeta
+python execute.py #genera csv en la carpeta, demora ~1min
 ```
 
 ## Dependencias
