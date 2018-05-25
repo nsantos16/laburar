@@ -1,4 +1,3 @@
-# import libraries
 import urllib2
 from bs4 import BeautifulSoup
 import csv
@@ -8,7 +7,7 @@ csv_writer = csv.writer(csv_file)
 csv_writer.writerow((['Propuesta','Link','Empresa','Fecha']))
 
 #Buscojobs
-for i in range(0,6):
+for i in range(0,20):
 	try:
 		url = 'https://www.buscojobs.com.uy/ofertas/ts210/trabajo-de-programacion/'+str(i)
 		page = urllib2.urlopen(url)
